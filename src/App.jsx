@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import {  BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -24,10 +25,22 @@ function App() {
         </a>
       </div>
       <h1>Vite + React123</h1>
+      <Router>
+          <Link to='/home'>
+            HomePage
+          </Link>
+          <Link to='/post'>
+            Post
+          </Link>
+          <Link to='/login'>
+            Login
+          </Link>
+      </Router>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
