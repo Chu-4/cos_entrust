@@ -1,0 +1,7 @@
+.pageBkg {
+  width:100vw;
+  height: 66px;
+  position:fixed;
+  bottom: 0;
+  background-color: rebeccapurple;
+}
