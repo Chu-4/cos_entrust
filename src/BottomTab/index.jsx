@@ -1,8 +1,8 @@
-import BottomStyle from './index.module.css'
+import cssStyle from './index.module.css'
 
 function BottomTab() {
   return (
-    <div className={BottomStyle.pageBkg}></div>
+    <div className={cssStyle.pageBkg}></div>
   )
 }
 

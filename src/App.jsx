@@ -13,7 +13,7 @@ const PRODUCTS = [
 
 const Page = () => {
   return (<div style={{height:'100vh'}}>
-    <Login></Login>
+    {/* <Login></Login> */}
     <FilterableProductTable products={PRODUCTS} />
     <BottomTab></BottomTab>
   </div>)
